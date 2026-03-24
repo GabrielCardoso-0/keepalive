@@ -14,7 +14,7 @@ async function ping(retry = 0) {
   try {
     const start = Date.now();
 
-    const response = await axios.get(URL, { timeout: 10000 });
+    const response = await axios.get(URL, { timeout: 30000 });
 
     const duration = Date.now() - start;
 
