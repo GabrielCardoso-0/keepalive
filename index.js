@@ -5,8 +5,8 @@ const URL = 'https://e-caderninho-1.onrender.com/usuarios/keepalive';
 
 // intervalo aleatório entre 2 e 5 minutos
 function randomInterval() {
-  const min = 2 * 60 * 1000;
-  const max = 5 * 60 * 1000;
+  const min = 1 * 60 * 1000;
+  const max = 3 * 60 * 1000;
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
