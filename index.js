@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-// 🔥 SUA URL
+//sua url
 const URL = 'https://e-caderninho-1.onrender.com/usuarios/keepalive';
 
 // intervalo aleatório entre 2 e 5 minutos
